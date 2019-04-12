@@ -1,0 +1,20 @@
+.vdimg{
+  width: 500px;
+  height:auto;
+}
+
+
+
+.left{
+  background-color: red;
+  float: left;
+}
+
+.right{
+  background-color: grey;
+  float: left;
+}
+
+.clear{
+  clear: both;
+}
