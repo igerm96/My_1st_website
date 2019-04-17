@@ -1,0 +1,112 @@
+body{
+background-image: radial-gradient(#f8eeb4, #a7d129, #616f39);
+}
+header{
+  padding: 10px;
+  width: 100%;
+  background-color: rgba(128,128,128,0.3);
+
+  z-index: 10;
+}
+main{
+  position: absolute;
+  z-index: 10;
+  top: 300px;
+  width: 450px;
+  left: 450px;
+  padding: 10px;
+  background-color: rgba(128,128,128,0.7);
+
+}
+
+.container{
+  border-radius: 10px;
+
+}
+.carousel{
+  width: 100%;
+  top: 0px;
+
+}
+.carousel-inner{
+  background-color: #283148;
+  background-position: center;
+
+
+
+}
+#wisker{
+  margin: auto;
+  min-width: 50%;
+  height: 800px;
+  max-width: none;
+}
+
+#Otto img,#freya img,#mishi img,img #fluf{
+  margin: auto;
+  transform: rotate(90deg);
+  min-width: 50%;
+  height: 800px;
+  max-height: none;
+
+}
+
+.vdimg{
+  width: 300px;
+  height:auto;
+  border-radius: 50%;
+}
+.vdimg:hover{
+  cursor: pointer;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.left{
+  background-color: red;
+  float: left;
+  flex: 30%;
+  padding: 30px;
+
+}
+/* compound selecter (element and class selector in one)
+only applies to the li with the class nav-item*/
+li.nav-item{
+  padding: 20px;
+}
+
+.right{
+  background-color: grey;
+  float: left;
+  flex:50%;
+  padding:10px;
+  position: relative;
+}
+
+.clear{
+  clear: both;
+}
+h1{
+  text-align: center;
+  font-family: lobster;
+}
+
+#topVG{
+  background-color: magenta;
+  position: absolute;
+  top:0px;
+  left: 350px;
+  display:none;
+  border-radius: 30%;
+}
+#topVG ol{
+  display: inline-flex;
+
+}
+#topVG li{
+  margin: 10px;
+}
