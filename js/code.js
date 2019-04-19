@@ -1,3 +1,9 @@
+/*
+  Once again, formatting and organization is the main issue here. One note
+  (which I constantly forget), is that you can actually use jQuery .slideToggle()
+  instead of checking 'expanded'.
+*/
+
 var expanded = false;
 
       $(document).ready(function() {
